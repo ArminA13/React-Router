@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+/* used y default with NavLink */
+/* .active {
+  color: lightyellow;
+  text-decoration: none;
+} */
+
+.courseLink {
+  margin: 40px auto;
+  width: 50%;
+  border: slategrey solid;
+}
+.courseLink:hover {
+  background-color: rgb(49, 63, 106);
+}
+.link {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.activeLink {
+  color: lightyellow;
+  text-decoration: none;
+}
+
 button {
   padding: 15px;
   font-size: 30px;
