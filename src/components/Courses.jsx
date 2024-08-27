@@ -5,6 +5,9 @@ import courses from "../data/courses";
 
 function sortCourses(courses, key) {
   const sortedCourses = [...courses];
+  if (!key) {
+    return sortCourses;
+  }
   sortedCourses.sort((a, b) => (a[key] > b[key] ? 1 : -1));
   return sortedCourses;
 }
